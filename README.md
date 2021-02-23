@@ -127,14 +127,3 @@ coverage3 report -m
 |:----:|:--:|
 | Formater | 91% |
 
-### Main
-
-```shell
-cd tests
-coverage3 run --source=main -m unittest test_main.py
-coverage3 report -m
-```
-
-| Module | Coverage |
-|:----:|:--:|
-| Main | 22% |
